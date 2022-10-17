@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+}
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 200px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+}
+.image-input {
+  width: 295px;
+  height: 22px;
+  padding: 2px 4px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.p {
+  margin-top: 5px;
+}
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+div.image-bar {
+  width: auto;
+  height: auto;
+  text-align: center;
+  display: block;
+  background-color: rgb(194, 193, 193);
+  padding-bottom: 20px;
+  margin: 1px;
+}
+input.image-input {
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.box-1 {
+  background-color: #7ee5da;
+  width: 324px;
+  height: 83px;
+  padding: 15px;
+  margin: 0;
+  margin: 1px;
+}
+.box-2 {
+  background-color: #70ccc2;
+  width: 190px;
+  height: 83px;
+  margin: 1px;
+  padding: 5px;
+}
+.box-3 {
+  background-color: #43b3a5;
+  width: 359px;
+  height: 83px;
+  margin: 0px;
+  margin: 1px;
+  padding: 2px;
+}
+div.p {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+small {
+  display: block;
+  margin-top: 50px;
+}
+.email-button {
+  margin-top: 1px;
+}
+p {
+  padding: 1px;
+}
