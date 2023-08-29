@@ -1,2 +1,2 @@
 # Patika - Fullstack Web Developer Bootcamp Case
- In this repo, I share the assignments I learned and completed on the patika.dev site.
+In this repository, I share the assignments I learned and completed in the patika full stack web developer bootcamp..
