@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Kilonuzu (kg) giriniz: ");
         double kilo = scanner.nextDouble();
 
-        System.out.print("Boyunuzu (metre cinsinden) giriniz: ");
+        System.out.print("Boyunuzu (metre cinsinden) yalnızca sayı kullanarak giriniz: ");
         double boy = scanner.nextDouble();
 
         double bmi = kilo / (boy * boy);
