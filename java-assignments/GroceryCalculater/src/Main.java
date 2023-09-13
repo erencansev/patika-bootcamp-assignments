@@ -11,19 +11,19 @@ public class Main {
         double patlicanKiloFiyati = 5.00;
         double armutKilo,elmaKilo,domatesKilo,muzKilo,patlicanKilo;
 
-        System.out.print("Kaç Kilo Armut Aldığınızı Belirtiniz : ");
+        System.out.print("Lütfen Kaç Kilo Armut Aldığınızı Belirtiniz : ");
         armutKilo = scanner.nextDouble();
 
-        System.out.print("Kaç Kilo Elma Aldığınızı Belirtiniz : ");
+        System.out.print("Lütfen Kaç Kilo Elma Aldığınızı Belirtiniz : ");
         elmaKilo = scanner.nextDouble();
 
-        System.out.print("Kaç Kilo Domates Aldığınızı Belirtiniz: ");
+        System.out.print("Lütfen Kaç Kilo Domates Aldığınızı Belirtiniz: ");
         domatesKilo = scanner.nextDouble();
 
-        System.out.print("Kaç Kilo Muz Aldığınızı Belirtiniz: ");
+        System.out.print("Lütfen Kaç Kilo Muz Aldığınızı Belirtiniz: ");
         muzKilo = scanner.nextDouble();
 
-        System.out.print("Kaç Kilo Patlıcan Aldığınızı Belirtiniz: ");
+        System.out.print("Lütfen Kaç Kilo Patlıcan Aldığınızı Belirtiniz: ");
         patlicanKilo = scanner.nextDouble();
 
         double toplamTutar = (armutKilo * armutKiloFiyati) +
