@@ -4,7 +4,7 @@
 .vscode/
 
 ### Mac OS ###
-.DS_Store
+.idea
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
