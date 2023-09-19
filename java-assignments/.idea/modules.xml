@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../sss/BMIcalculater/BMIcalculater.iml" filepath="$PROJECT_DIR$/../sss/BMIcalculater/BMIcalculater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/Calculater/Calculater.iml" filepath="$PROJECT_DIR$/../sss/Calculater/Calculater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/ChineseZodiac/ChineseZodiac.iml" filepath="$PROJECT_DIR$/../sss/ChineseZodiac/ChineseZodiac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/CircleCalculater/CircleCalculater.iml" filepath="$PROJECT_DIR$/../sss/CircleCalculater/CircleCalculater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/ExponentialNumber/ExponentialNumber.iml" filepath="$PROJECT_DIR$/../sss/ExponentialNumber/ExponentialNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/FactorialCalculation/FactorialCalculation.iml" filepath="$PROJECT_DIR$/../sss/FactorialCalculation/FactorialCalculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/FibonacciSeries/FibonacciSeries.iml" filepath="$PROJECT_DIR$/../sss/FibonacciSeries/FibonacciSeries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/FindEvenNumber/FindEvenNumber.iml" filepath="$PROJECT_DIR$/../sss/FindEvenNumber/FindEvenNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/FindHoroscope/FindHoroscope.iml" filepath="$PROJECT_DIR$/../sss/FindHoroscope/FindHoroscope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/FindHypotenuse/FindHypotenuse.iml" filepath="$PROJECT_DIR$/../sss/FindHypotenuse/FindHypotenuse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/FindOddNumber/FindOddNumber.iml" filepath="$PROJECT_DIR$/../sss/FindOddNumber/FindOddNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/FlightTicket/FlightTicket.iml" filepath="$PROJECT_DIR$/../sss/FlightTicket/FlightTicket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/ForceCalculater/ForceCalculater.iml" filepath="$PROJECT_DIR$/../sss/ForceCalculater/ForceCalculater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/GPAcalculator/GPAcalculator.iml" filepath="$PROJECT_DIR$/../sss/GPAcalculator/GPAcalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/GroceryCalculater/GroceryCalculater.iml" filepath="$PROJECT_DIR$/../sss/GroceryCalculater/GroceryCalculater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/InvertedTriangle/InvertedTriangle.iml" filepath="$PROJECT_DIR$/../sss/InvertedTriangle/InvertedTriangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/KDVcalculater/KDVcalculater.iml" filepath="$PROJECT_DIR$/../sss/KDVcalculater/KDVcalculater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/LeapYearCalculation/LeapYearCalculation.iml" filepath="$PROJECT_DIR$/../sss/LeapYearCalculation/LeapYearCalculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/NumberRank/NumberRank.iml" filepath="$PROJECT_DIR$/../sss/NumberRank/NumberRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/PassTheGrade/PassTheGrade.iml" filepath="$PROJECT_DIR$/../sss/PassTheGrade/PassTheGrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/PerfectNumber/PerfectNumber.iml" filepath="$PROJECT_DIR$/../sss/PerfectNumber/PerfectNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/PrimeQuery/PrimeQuery.iml" filepath="$PROJECT_DIR$/../sss/PrimeQuery/PrimeQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/ProcessPriority/ProcessPriority.iml" filepath="$PROJECT_DIR$/../sss/ProcessPriority/ProcessPriority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/Taximeter/Taximeter.iml" filepath="$PROJECT_DIR$/../sss/Taximeter/Taximeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/TipCasting/TipCasting.iml" filepath="$PROJECT_DIR$/../sss/TipCasting/TipCasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/UserLogin/UserLogin.iml" filepath="$PROJECT_DIR$/../sss/UserLogin/UserLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/WeatherEvent/WeatherEvent.iml" filepath="$PROJECT_DIR$/../sss/WeatherEvent/WeatherEvent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/.idea/java-assignments.iml" filepath="$PROJECT_DIR$/../sss/.idea/java-assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sss/week-1/week-1.iml" filepath="$PROJECT_DIR$/../sss/week-1/week-1.iml" />
+    </modules>
+  </component>
+</project>

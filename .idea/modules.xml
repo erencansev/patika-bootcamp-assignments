@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-assignments/java-assignments.iml" filepath="$PROJECT_DIR$/java-assignments/java-assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/patika-bootcamp-assignments.iml" filepath="$PROJECT_DIR$/.idea/patika-bootcamp-assignments.iml" />
     </modules>
   </component>
