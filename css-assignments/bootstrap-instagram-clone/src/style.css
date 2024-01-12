@@ -141,14 +141,14 @@ p {
   width: 500px;
   border: none;
 }
-.deneme {
+.switch-up {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
 }
-.deneme p {
+.switch-up p {
   padding-left: 10px;
 }
 .left-content-header {
