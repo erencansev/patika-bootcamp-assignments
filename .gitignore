@@ -27,3 +27,4 @@ node_modules/
 
 ### Mac OS ###
 /.idea
+.DS_Store/

@@ -69,3 +69,6 @@ nav {
 .progress-margin {
   margin: 0;
 }
+#countdown {
+  font-size: 26px;
+}
