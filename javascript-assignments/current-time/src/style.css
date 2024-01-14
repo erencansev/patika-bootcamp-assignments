@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #010b11;
+  background-image: url(/javascript-assignments/current-time/assets/bg-winter.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  color: wheat;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 500px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  background-color: rgba(63, 63, 63, 0.087);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input-button {
+  height: auto;
+  background-color: rgba(66, 99, 70, 0.093);
+  border: 2px solid rgba(128, 128, 128, 0.361);
+  border-radius: 5px;
+  text-decoration: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.559);
+  width: 200px;
+  height: 25px;
+}
+.submit-button {
+  background-color: rgba(128, 128, 128, 0.804);
+  border: 3px solid rgba(128, 128, 128, 0.361);
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.559);
+  font-size: 17px;
+  font-weight: 700;
+}
+#currentTimer {
+  display: none;
+}
+.currentTimers {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  background-color: rgba(63, 63, 63, 0.087);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 45px;
+  color: wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
