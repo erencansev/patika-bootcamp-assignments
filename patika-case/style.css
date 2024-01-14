@@ -66,3 +66,6 @@ nav {
 .person a:hover {
   opacity: 1;
 }
+.progress-margin {
+  margin: 0;
+}
