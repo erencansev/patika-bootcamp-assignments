@@ -1,6 +1,6 @@
 ### IntelliJ IDEA ###
 out/
-
+iml/
 
 ### Eclipse ###
 .apt_generated
@@ -23,6 +23,7 @@ bin/
 
 ### VS Code ###
 .vscode/
+node_modules/
 
 ### Mac OS ###
 /.idea
