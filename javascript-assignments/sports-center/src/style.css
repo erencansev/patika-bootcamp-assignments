@@ -69,7 +69,7 @@
 }
 .group-description {
   font-size: 27px;
-  background-color: rgba(0, 0, 0, 0.487);
+  background-color: rgba(0, 0, 0, 0.736);
   color: white;
   margin-bottom: 15px;
 }
@@ -93,20 +93,390 @@
   text-align: center;
   border: 1px solid white;
 }
+.data-section {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f8ff;
+  gap: 20px;
+}
+.institution-data {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 90px;
+  background-color: white;
+  max-width: 715px;
+  flex-wrap: wrap;
+}
+.data-num {
+  font-size: 22px;
+  color: #355592;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.data-text {
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.our-classes {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    77deg,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(245, 245, 245, 1) 40%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 85vh;
+  flex-direction: column;
+}
+.section-header {
+  text-align: center;
+  max-width: 650px;
+}
 
+.section-header--title {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #355592;
+  text-transform: uppercase;
+}
+.section-header--line {
+  width: 130px;
+  height: 10px;
+  background-color: orange;
+  margin: auto;
+  border-radius: 40px;
+  margin-top: 15px;
+}
+.section-header--subtitle {
+  margin-top: 25px;
+  font-size: 18px;
+}
+.our-classes-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 70px;
+}
+.our-button:focus {
+  background-color: orange;
+}
+
+.our-classes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  width: auto;
+  margin: 50px 100px;
+}
+.our-classes-image {
+  max-width: 500px;
+  padding: 40px;
+}
+.container-description {
+  padding: 10px;
+  color: #4e4e4e;
+  gap: 11px;
+  max-width: 600px;
+}
+.info-component {
+  color: #4e4e4e;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.bmi-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.bmi-info-title {
+  color: #355592;
+  text-align: center;
+  font-size: 30px;
+}
+.bmi-info-text {
+  padding: 30px;
+  text-align: center;
+}
+.trainers-text {
+  margin-bottom: 50px;
+}
+.trainers-classes-container {
+  background-color: #f1f8ff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.trainers-card {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trainers-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trainer-img-inf {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: #355592;
+  width: 100%;
+  height: 25%;
+}
+.card-image {
+  border: 3px solid orange;
+}
+
+.trainer-img-inf:hover .overlay {
+  opacity: 1;
+}
+.purchase-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.purchase {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.purchase-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.purchase-img-inf img {
+  width: 300px;
+  border-radius: 6px;
+}
+.purchase-img-inf {
+  border-radius: 6px;
+  box-shadow: 10px 10px 10px 10px #4e4e4e47;
+  margin-bottom: 100px;
+}
+.review-section {
+  background-color: #f1f8ff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.reviews {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 150px;
+  padding: 100px;
+}
+.client-reviews {
+  display: flex;
+  background-color: #6589d7;
+  font-size: 22px;
+  width: auto;
+  padding: 30px;
+}
+.client-inner {
+  display: flex;
+  padding: 30px;
+}
+.client-text {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.client-inner img {
+  border-radius: 50%;
+}
+.contact-section {
+  background-color: #ffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.adress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.name-input {
+  background-color: #f1f8ff;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+}
+.inputs-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.textareas {
+  background-color: #f1f8ff;
+}
+.footer {
+  background-color: #355592;
+  width: 100%;
+  height: 30vh;
+}
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 762px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav-item {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: #464444;
+    z-index: 1;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+  }
+
+  .nav-item span {
+    padding: 10px;
+    text-align: center;
+  }
+  header.nav-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
 @media screen and (max-width: 989px) {
   .nav-container {
     flex-direction: column;
     gap: 0;
   }
   .info-section {
-    max-width: 500px;
+    max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto 0 auto;
+    margin: 100px 50px 0 50px;
   }
   .group-text {
     font-size: 72px;
+  }
+  .data-section {
+    flex-direction: column;
+  }
+  .data-text {
+    font-size: 17px;
+  }
+  .our-classes {
+    height: 135vh;
+  }
+  .our-classes-buttons {
+    gap: 30px;
+  }
+  .our-classes-container {
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  .our-classes-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .bmi-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .trainers-card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .purchase-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews {
+    flex-direction: column;
+  }
+  .contact-container {
+    flex-direction: column;
+    gap: 10px;
   }
 }
