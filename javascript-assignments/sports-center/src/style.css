@@ -8,8 +8,10 @@
   background-position: center;
   background-attachment: fixed;
   object-fit: none;
+  padding-top: 150px;
 }
 .nav-container {
+  top: 0;
   width: auto;
   display: flex;
   align-items: center;
@@ -18,6 +20,19 @@
   text-align: center;
   flex-direction: row;
 }
+.nav-container {
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  transition: background-color ease; /* Geçiş efektini ekliyoruz */
+  z-index: 1000;
+}
+.nav-container.scrolled {
+  background-color: #355592; /* Kaydırıldığında mavi renk */
+}
+
+/* Diğer stillerinizi buraya ekleyin */
+
 .nav-item {
   display: flex;
   gap: 20px;
@@ -47,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 120px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
 .powerfull-button {
   padding: 5px 20px;
@@ -191,7 +206,9 @@
   padding: 10px;
   color: #4e4e4e;
   gap: 11px;
-  max-width: 600px;
+  width: auto;
+  padding: 50px;
+  border-radius: 6px;
 }
 .info-component {
   color: #4e4e4e;
@@ -378,46 +395,7 @@
   width: 100%;
   height: 30vh;
 }
-.burger-menu {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
 
-.bar {
-  width: 30px;
-  height: 3px;
-  background-color: #fff;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-/* Responsive styles for smaller screens */
-@media screen and (max-width: 762px) {
-  .burger-menu {
-    display: flex;
-  }
-
-  .nav-item {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    background-color: #464444;
-    z-index: 1;
-    top: 60px; /* Adjust as needed */
-    left: 0;
-  }
-
-  .nav-item span {
-    padding: 10px;
-    text-align: center;
-  }
-  header.nav-container {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-}
 @media screen and (max-width: 989px) {
   .nav-container {
     flex-direction: column;
@@ -450,7 +428,7 @@
     margin: 50px auto;
   }
   .our-classes-buttons {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
   }
@@ -463,6 +441,7 @@
     justify-content: center;
     margin: auto;
   }
+
   .trainers-card {
     display: flex;
     flex-direction: column;
@@ -478,5 +457,54 @@
   .contact-container {
     flex-direction: column;
     gap: 10px;
+  }
+}
+.toggle-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 576px) {
+  .nav-container {
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  .nav-item {
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 30%;
+    top: 65px;
+    right: 0;
+    z-index: 1;
+    padding-top: 20px;
+    margin-top: 26px;
+    background-color: rgba(0, 0, 0, 0.739);
+  }
+
+  .nav-item.show {
+    display: flex;
+  }
+
+  .toggle-menu {
+    display: block;
+  }
+
+  .line {
+    width: 30px;
+  }
+  .bmi-classes-image {
+    width: 425px;
   }
 }

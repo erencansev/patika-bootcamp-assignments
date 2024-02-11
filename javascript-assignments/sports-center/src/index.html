@@ -9,25 +9,27 @@
 </head>
 
 <body>
-    <section class="hero-section">
-        <header class="nav-container">
+    <section class="hero-section" id="home">
+        <header class="nav-container nav-bar">
             <div class="navbar-logo">
                 <img src="/javascript-assignments/sports-center/assets/logo.png" alt="navbar-logo">
             </div>
-            <div class="burger-menu">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-            <div class="nav-item">
-                <span><a class="item-text" href="">Home</a></span>
-                <span><a class="item-text" href="">Classes</a></span>
-                <span><a class="item-text" href="">Trainer</a></span>
-                <span><a class="item-text" href="">Review</a></span>
-                <span><a class="item-text" href="">Contact</a></span>
-                <button class="nav-item__joinus"><a class="item-text" href="">Join Us</a></button>
 
+            <div class="nav-item">
+                <span><a class="item-text" href="#home">Home</a></span>
+                <span><a class="item-text" href="#classes">Classes</a></span>
+                <span><a class="item-text" href="#trainer">Trainer</a></span>
+                <span><a class="item-text" href="#review">Review</a></span>
+                <span><a class="item-text" href="#contact">Contact</a></span>
+                <button class="nav-item__joinus"><a class="item-text" href="">Join Us</a></button>
             </div>
+
+            <div class="toggle-menu">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+
         </header>
 
         <div class="info-section">
@@ -65,7 +67,7 @@
             </div>
         </section>
     </section>
-    <section class="our-classes">
+    <section class="our-classes" id="classes">
         <div class="section-header">
             <h2 class="section-header--title">our classes</h2>
             <div class="section-header--line"></div>
@@ -112,20 +114,22 @@
                             Excepturi, reiciendis sapiente.</p>
                     </div>
                     <div class="bmi-inputs">
-                        <input type="text" class="name-input" placeholder="kütleni gir">
-                        <input type="text" class="name-input" placeholder="yükseklik gir">
-                        <input type="submit" class="name-input">
-
+                        <input type="text" id="weightInput" class="name-input" placeholder="Kilonuzu girin">
+                        <input type="text" id="heightInput" class="name-input" placeholder="Boyunuzu girin">
+                        <button id="calculateBtn" class="name-input">BMI Hesapla</button>
                     </div>
                 </div>
                 <img class="bmi-classes-image" src="/javascript-assignments/sports-center/assets/bmi-index.jpg"
                     alt="yoga-girl">
             </div>
         </div>
+
+
+
         <div class="trainers-classes-container">
 
             <div class="section-header trainers-text">
-                <h2 class="section-header--title">our best trainers</h2>
+                <h2 class="section-header--title" id="trainer">our best trainers</h2>
                 <div class="section-header--line"></div>
                 <p class="section-header--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                     odit
@@ -223,7 +227,7 @@
         </div>
         <div class="review-section">
             <div class="section-header trainers-text">
-                <h2 class="section-header--title">Client review</h2>
+                <h2 class="section-header--title" id="review">Client review</h2>
                 <div class="section-header--line"></div>
                 <p class="section-header--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                     odit
@@ -283,7 +287,7 @@
         </div>
         <div class="contact-section">
             <div class="section-header trainers-text">
-                <h2 class="section-header--title">Contact us</h2>
+                <h2 class="section-header--title" id="contact">Contact us</h2>
                 <div class="section-header--line"></div>
                 <p class="section-header--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                     odit
