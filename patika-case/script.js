@@ -48,7 +48,7 @@ darkmode.addEventListener("click", () => {
   }
 });
 document.addEventListener("DOMContentLoaded", function () {
-  const targetDate = new Date("2024-03-08T23:59:59");
+  const targetDate = new Date("2024-03-18T23:59:59");
 
   function updateCountdown() {
     const currentDate = new Date();
